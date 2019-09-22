@@ -1,10 +1,10 @@
-package cci.chapter2;
+package cci.chapter3;
 
 public class Node {
 	public int value;
-	public Node next;
+	public Node next = null;
 	
-	public Node(int value, Node next) {
+	public Node(int value) {
 		this.value = value;
 		this.next = next;
 	}
